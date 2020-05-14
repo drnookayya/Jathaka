@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="#1FBEF2"
+            android:padding="2dp"
+            android:layout_margin="4dp">
+
+            <TextView
+                android:layout_height="@dimen/width1"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/meenam"
+                android:layout_width="@dimen/width1"
+                android:padding="2dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_margin="1dp"
+                android:background="#FFFFFF"
+                android:textColor="#3F33F5"/>
+
+            <TextView
+                android:background="#FFFFFF"
+                android:textColor="#3F33F5"
+                android:layout_width="@dimen/width1"
+                android:padding="2dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_margin="1dp"
+                android:layout_height="@dimen/width1"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_below="@id/meenam"
+                android:id="@+id/kumbham"/>
+
+            <TextView
+                android:background="#FFFFFF"
+                android:textColor="#3F33F5"
+                android:layout_width="@dimen/width1"
+                android:padding="2dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_margin="1dp"
+                android:layout_height="@dimen/width1"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_below="@id/kumbham"
+                android:id="@+id/makaram"/>
+
+            <TextView
+                android:background="#FFFFFF"
+                android:textColor="#3F33F5"
+                android:layout_width="@dimen/width1"
+                android:padding="2dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_margin="1dp"
+                android:layout_height="@dimen/width1"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_below="@id/makaram"
+                android:id="@+id/dhanussu"/>
+
+            <TextView
+                android:textColor="#3F33F5"
+                android:layout_width="@dimen/width1"
+                android:padding="2dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_margin="1dp"
+                android:layout_height="@dimen/width1"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_toRightOf="@id/meenam"
+                android:id="@+id/mesham"
+                android:background="#FFFFFF"
+                android:layout_toEndOf="@id/meenam" />
+
+            <TextView
+                android:background="#FFFFFF"
+                android:textColor="#3F33F5"
+                android:layout_width="@dimen/width1"
+                android:padding="2dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_margin="1dp"
+                android:layout_height="@dimen/width1"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_toRightOf="@id/mesham"
+                android:id="@+id/vrishabham"
+                android:layout_toEndOf="@id/mesham" />
+
+            <TextView
+                android:background="#FFFFFF"
+                android:textColor="#3F33F5"
+                android:layout_width="@dimen/width1"
+                android:padding="2dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_margin="1dp"
+                android:layout_height="@dimen/width1"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_toRightOf="@id/vrishabham"
+                android:id="@+id/midhunam"
+                android:layout_toEndOf="@id/vrishabham" />
+
+            <TextView
+                android:background="#FFFFFF"
+                android:textColor="#3F33F5"
+                android:layout_width="@dimen/width1"
+                android:padding="2dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_margin="1dp"
+                android:layout_height="@dimen/width1"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_toRightOf="@id/dhanussu"
+                android:layout_below="@id/makaram"
+                android:id="@+id/vrischikam"
+                android:layout_toEndOf="@id/dhanussu" />
+
+            <TextView
+                android:background="#FFFFFF"
+                android:textColor="#3F33F5"
+                android:layout_width="@dimen/width1"
+                android:padding="2dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_margin="1dp"
+                android:layout_height="@dimen/width1"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_toRightOf="@id/vrischikam"
+                android:layout_below="@id/makaram"
+                android:id="@+id/thula"
+                android:layout_toEndOf="@id/vrischikam" />
+
+            <TextView
+                android:background="#FFFFFF"
+                android:textColor="#3F33F5"
+                android:layout_width="@dimen/width1"
+                android:padding="2dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_margin="1dp"
+                android:layout_height="@dimen/width1"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_toRightOf="@id/thula"
+                android:layout_below="@id/makaram"
+                android:id="@+id/kanya"
+                android:layout_toEndOf="@id/thula" />
+
+            <TextView
+                android:background="#FFFFFF"
+                android:textColor="#3F33F5"
+                android:layout_width="@dimen/width1"
+                android:padding="2dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_margin="1dp"
+                android:layout_height="@dimen/width1"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_above="@id/kanya"
+                android:layout_toRightOf="@id/thula"
+                android:id="@+id/simham"
+                android:layout_toEndOf="@id/thula" />
+
+            <TextView
+                android:background="#FFFFFF"
+                android:textColor="#3F33F5"
+                android:layout_width="@dimen/width1"
+                android:padding="2dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:layout_margin="1dp"
+                android:layout_height="@dimen/width1"
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_above="@id/simham"
+                android:layout_alignLeft="@id/simham"
+                android:id="@+id/karkatakam"
+                android:layout_alignStart="@id/simham" />
+
+            <TextView
+                android:background="#FFFFFF"
+                android:textColor="#3F33F5"
+                android:layout_width="@dimen/width1"
+                android:padding="2dp"
+                android:gravity="center"
+                android:layout_margin="1dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_toRightOf="@id/kumbham"
+                android:layout_below="@id/mesham"
+                android:layout_toLeftOf="@id/simham"
+                android:layout_alignBottom="@id/simham"
+                android:textSize="28sp"
+                android:id="@+id/info"
+                android:text="@string/a"
+                android:layout_toEndOf="@id/kumbham"
+                android:layout_toStartOf="@id/simham" />
+
+        </RelativeLayout>
+
